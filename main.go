@@ -167,6 +167,7 @@ func (m model) View() string {
 	}
 }
 
+
 func main() {
 	shouldRunLogExfil := flag.Bool("logs", false, "Copy logs from your Beepy device to your computer")
 	flag.Parse()
